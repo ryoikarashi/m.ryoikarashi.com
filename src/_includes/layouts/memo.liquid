@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
+  </head>
+
+  <body class="bg-black font-josefin">
+    <div class="text-white text-4xl ml-5 mt-5 md:ml-10 md:mt-10">
+      <a href="/" class="flex justify-center items-center w-[30px] h-[30px] pa-3 relative after:w-[5px] after:h-[5px] after:bg-white after:rounded after:absolute"></a>
+    </div>
+    <main class="mt-10 md:mt-20 w-90 mx-auto">
+      <div class="prose-sm prose prose-neutral prose-invert m-auto">
+        <div class="text-center mb-12">
+          <h1>{{ title }}</h1>
+          {% assign date = page.date | date: "%Y.%m.%d" %}
+          <div class="text-xs">{{ date }}</div>
+        </div>
+        <div>{{ content }}</div>
+      </div>
+    </main>
+  </body>
+</html>

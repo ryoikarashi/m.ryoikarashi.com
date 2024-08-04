@@ -1,0 +1,12 @@
+---
+title: "memorandums"
+layout: "layouts/base.liquid"
+---
+
+<ul>
+  {% for memo in collections.memo %}
+    <li>
+      <a href="{{ memo.url }}">{{ memo.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
