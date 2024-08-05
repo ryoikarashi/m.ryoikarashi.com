@@ -4,7 +4,7 @@ layout: "layouts/base.liquid"
 ---
 
 <div class="text-center">
-  {% for memo in collections.memo %}
+  {% for memo in collections.memo reversed %}
     <div class="text-base mt-5">
       <a href="{{ memo.url }}" class="text-white hover:text-opacity-90">{{ memo.data.title }}</a>
     </div>
