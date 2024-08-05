@@ -5,7 +5,7 @@ layout: "layouts/base.liquid"
 
 <ul>
   {% for memo in collections.memo %}
-    <li>
+    <li class="text-base">
       <a href="{{ memo.url }}">{{ memo.data.title }}</a>
     </li>
   {% endfor %}
