@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b9cd8c3-2164-4e8d-a3dc-4689575445b8" name="Changes" comment="k" />
+    <list default="true" id="7b9cd8c3-2164-4e8d-a3dc-4689575445b8" name="Changes" comment="k">
+      <change afterPath="$PROJECT_DIR$/src/memos/uma-open-house.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_includes/layouts/memo.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/src/_includes/layouts/memo.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uma-open-house.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +32,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/11ty/eleventy-base-blog&quot;,
+    &quot;url&quot;: &quot;https://github.com/ryoikarashi/m.ryoikarashi.com.git&quot;,
     &quot;accountId&quot;: &quot;fc3f0c0f-792f-4460-ba5e-8d2bc6bc8574&quot;
   }
 }</component>
@@ -46,14 +53,14 @@
     "ignore_missing_gitignore": "true",
     "javascript.nodejs.core.library.configured.version": "20.11.0",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/ryo/Sites/ryoikarashi.com/m/src",
+    "last_opened_file_path": "/Users/ryo/Sites/ryoikarashi.com/m.ryoikarashi.com",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.elm.workspace.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Other File Types",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
     "ts.external.directory.path": "/Users/ryo/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -63,6 +70,7 @@
       <recent name="$PROJECT_DIR$/src/" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/notes" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/_includes/layouts" />
     </key>
@@ -83,7 +91,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722703736870</updated>
       <workItem from="1722703737985" duration="5494000" />
-      <workItem from="1722785207027" duration="4794000" />
+      <workItem from="1722785207027" duration="5725000" />
+      <workItem from="1722837031025" duration="1723000" />
     </task>
     <servers />
   </component>
