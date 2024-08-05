@@ -10,7 +10,11 @@ export default {
     fontFamily: {
       josefin: ['Josefin Sans', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'black': '#111111',
+      },
+    },
   },
   plugins: [
       Typography

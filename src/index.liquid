@@ -3,10 +3,10 @@ title: "memorandums"
 layout: "layouts/base.liquid"
 ---
 
-<ul>
+<div class="text-center">
   {% for memo in collections.memo %}
-    <li class="text-base">
-      <a href="{{ memo.url }}">{{ memo.data.title }}</a>
-    </li>
+    <div class="text-base mt-5">
+      <a href="{{ memo.url }}" class="text-white hover:text-opacity-90">{{ memo.data.title }}</a>
+    </div>
   {% endfor %}
-</ul>
+</div>
