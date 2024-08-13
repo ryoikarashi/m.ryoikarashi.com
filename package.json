@@ -10,10 +10,10 @@
     "build": "run-s build:*",
     "dev:11ty": "eleventy --serve",
     "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss",
-    "dev:fonts": "cp -R src/assets/fonts/* _site/assets/fonts/",
+    "dev:fonts": "mkdir -p _site/assets/fonts && cp -R src/assets/fonts/* _site/assets/fonts/",
     "build:11ty": "eleventy",
     "build:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --postcss",
-    "build:fonts": "cp -R src/assets/fonts/* _site/assets/fonts/",
+    "build:fonts": "mkdir -p _site/assets/fonts && cp -R src/assets/fonts/* _site/assets/fonts/",
     "postinstall": "patch-package"
   },
   "keywords": [],
