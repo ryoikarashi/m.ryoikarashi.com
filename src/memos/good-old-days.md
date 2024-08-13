@@ -1,7 +1,6 @@
 ---
 title: Good Old Days
 description: Nothing is more responsible for the good old days than a bad memory.
-slug: good-old-days
 tags: [memo]
 layout: layouts/memo
 date: 2022-06-20

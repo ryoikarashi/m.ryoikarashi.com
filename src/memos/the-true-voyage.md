@@ -1,7 +1,6 @@
 ---
 title: The True Voyage
 description: The true voyage of discovery consists not of going to new places, but of having a new pair of eyes.
-slug: the-true-voyage
 tags: [memo]
 layout: layouts/memo
 date: 2022-05-17
