@@ -29,12 +29,13 @@ export default async function handler(req: VercelRequest) {
           flexDirection: 'column',
           alignItems: 'center',
           justifyContent: 'center',
-          lineHeight: 2.4,
+          lineHeight: 2,
           padding: 50,
+          position: 'relative',
         }}
       >
-        <div style={{ fontSize: 60 }}>{ title }</div>
-        <div style={{fontSize: 25, display: 'flex'}}>
+        <div style={{fontSize: 65}}>{title}</div>
+        <div style={{fontSize: 25, position: 'absolute', bottom: 20, right: 40}}>
           {date}
         </div>
       </div>
