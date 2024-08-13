@@ -7,7 +7,7 @@ export const config = {
 };
 
 export default async function handler(req: VercelRequest) {
-  const fontRes = await fetch('http://localhost:3001/assets/fonts/josefin-sans.woff');
+  const fontRes = await fetch(`${process.env.APP_URL}/assets/fonts/josefin-sans.ttf`);
   const fontData = await fontRes.arrayBuffer();
   const { searchParams } = new URL(req.url ?? '');
   const hasTitle = searchParams.has('title');
