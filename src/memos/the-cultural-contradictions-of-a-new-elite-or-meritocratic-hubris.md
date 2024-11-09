@@ -1,5 +1,5 @@
 ---
-title:  The Cultural Contradictions of a New Elite or Meritocratic Hubris
+title: The Cultural Contradictions of a New Elite or Meritocratic Hubris
 description: Quotes on the division of modern society.
 tags: [memo]
 layout: layouts/memo
