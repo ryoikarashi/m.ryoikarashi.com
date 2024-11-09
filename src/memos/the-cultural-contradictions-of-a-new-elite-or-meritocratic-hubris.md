@@ -1,6 +1,6 @@
 ---
 title:  The Cultural Contradictions of a New Elite or Meritocratic Hubris
-description: 
+description: Quotes on the division of modern society.
 tags: [memo]
 layout: layouts/memo
 date: 2024-11-07
