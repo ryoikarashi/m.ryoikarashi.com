@@ -1,0 +1,4 @@
+Sitemap: https://m.ryoikarashi.com/sitemap.xml
+
+User-agent: *
+Disallow:
