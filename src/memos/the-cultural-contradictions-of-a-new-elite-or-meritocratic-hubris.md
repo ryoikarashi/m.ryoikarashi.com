@@ -1,9 +1,35 @@
 ---
-title:  The Cultural Contradictions of a New Elite
+title:  The Cultural Contradictions of a New Elite or Meritocratic Hubris
 description: 
 tags: [memo]
 layout: layouts/memo
 date: 2024-11-07
+data:
+  url: "https://embed.ted.com/talks/michael_sandel_the_tyranny_of_merit"
+---
+
+> In recent decades, the divide between winners and losers has been deepening, poisoning our politics, setting us apart. This divide is partly about inequality. But it's also about the attitudes toward winning and losing that have come with it. Those who landed on top came to believe that their success was their own doing, a measure of their merit, and that those who lost out had no one to blame but themselves.
+>
+> This way of thinking about success arises from a seemingly attractive principle. If everyone has an equal chance, the winners deserve their winnings. This is the heart of the meritocratic ideal. In practice, of course, we fall far short. Not everybody has an equal chance to rise. Children born to poor families tend to stay poor when they grow up. Affluent parents are able to pass their advantages onto their kids.
+
+>  The ideal itself is flawed. It has a dark side. Meritocracy is corrosive of the common good. It leads to hubris among the winners and humiliation among those who lose out. It encourages the successful to inhale too deeply of their success, to forget the luck and good fortune that helped them on their way. And it leads them to look down on those less fortunate, less credentialed than themselves. This matters for politics. One of the most potent sources of the populous backlash is the sense among many working people that elites look down on them.
+
+> It is also time for a moral, even spiritual, turning, questioning our meritocratic hubris.
+> Do I morally deserve the talents that enable me to flourish?
+> Is it my doing that I live in a society that prizes the talents I happen to have?
+> Or is that my good luck?
+> Insisting that my success is my due makes it hard to see myself in other people's shoes.
+> Appreciating the role of luck in life can prompt a certain humility.
+> There but for the accident of birth, or the grace of God, or the mystery of fate, go I.
+>
+> This spirit of humility is the civic virtue we need now.
+> It's the beginning of a way back from the harsh ethic of success that drives us apart.
+> It points us beyond the tyranny of merit to a less rancorous, more generous public life. 
+
+— [Michael Sandel](https://www.ted.com/talks/michael_sandel_the_tyranny_of_merit)
+
+{% renderFile "./src/_includes/partials/video.liquid", data %}
+
 ---
 
 > 現代の社会は彼らに有利なように構成されていて、近年の経済成長の果実の大半も彼らが享受している。そして、現在の米民主党の支持者は圧倒的にこの階層である。よってアル・ガルビによれば、米国における最も重要な分断は、こうした知識経済産業に関係する専門家と、それ以外の労働者階級や非白人を含む知識経済の「敗者」との間にあるということになる。米共和党の支持が強いいわゆるレッド・ステートであっても、都市部や大学町は多くの場合米民主党が選挙で圧勝するというのは、その州における前者が多く都市に住んでいるからに他ならない。
@@ -16,7 +42,7 @@ date: 2024-11-07
 
 — [米国のポピュリズムと象徴資本主義のたそがれ — Masayuki Hatta](https://www.mhatta.org/wp/2024/11/07/us-populism-and-symbolic-capitalism/)
 
-<br />
+---
 
 > ヘンダーソンが挙げている「贅沢品としての信念」の具体例としては、
 > 
@@ -34,5 +60,3 @@ date: 2024-11-07
 > ヘンダーソンによれば、この種の「贅沢品」をありがたがることで上流階級は、金持ちの世界で尊敬や社会的地位を得られる。しかし、こうした信念が実際に実行に移されたとして、それが引き起こすネガティヴな帰結は、上流階級には影響しない。悪影響は主に下層階級が負うのである。
 
 — [贅沢品としての信念 — Masayuki Hatta](https://www.mhatta.org/wp/2024/05/27/on-luxury-beliefs/)
-
-<br />
