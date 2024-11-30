@@ -4,8 +4,20 @@ description: Quotes on the division of modern society.
 tags: [memo]
 layout: layouts/memo
 date: 2024-11-07
-data:
+data_1:
   url: "https://embed.ted.com/talks/michael_sandel_the_tyranny_of_merit"
+data_2:
+  url: "https://www.youtube.com/embed/C7rLZejDznI"
+data_3:
+  url: "https://www.youtube.com/embed/kC-fFzxZGJI"
+---
+
+{% renderFile "./src/_includes/partials/video.liquid", data_2 %}
+
+---
+
+{% renderFile "./src/_includes/partials/video.liquid", data_3 %}
+
 ---
 
 > In recent decades, the divide between winners and losers has been deepening, poisoning our politics, setting us apart. This divide is partly about inequality. But it's also about the attitudes toward winning and losing that have come with it. Those who landed on top came to believe that their success was their own doing, a measure of their merit, and that those who lost out had no one to blame but themselves.
@@ -28,7 +40,7 @@ data:
 
 — [Michael Sandel](https://www.ted.com/talks/michael_sandel_the_tyranny_of_merit)
 
-{% renderFile "./src/_includes/partials/video.liquid", data %}
+{% renderFile "./src/_includes/partials/video.liquid", data_1 %}
 
 ---
 
