@@ -1,5 +1,5 @@
 ---
-title: Ain't it a lonely feeling
+title: Ain't It A Lonely Feeling
 description: Ain't it a lonely feeling talking 'bout my and me instead of we and free
 tags: [memo]
 layout: layouts/memo
