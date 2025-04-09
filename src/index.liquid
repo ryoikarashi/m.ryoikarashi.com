@@ -6,8 +6,15 @@ layout: "layouts/base.liquid"
 
 <div class="text-center">
   {% for memo in collections.memo reversed %}
-    <div class="text-base mt-5">
-      <a href="{{ memo.url }}" class="text-white hover:text-opacity-90">{{ memo.data.title }}</a>
+    <div class="text-base mt-4 flex flex-col justify-center items-center w-full">
+      <a href="{{ memo.url }}" class="text-white hover:text-opacity-90 no-underline hover:underline focus:underline">{{ memo.data.title }}</a>
+      {% unless forloop.last %}
+      <div class="flex mt-4">
+        <div class="h-[2px] w-[2px] bg-white rounded-full bg-opacity-40"></div>
+        <div class="h-[2px] w-[2px] bg-white rounded-full bg-opacity-40 ml-1"></div>
+        <div class="h-[2px] w-[2px] bg-white rounded-full bg-opacity-40 ml-1"></div>
+      </div>
+      {% endunless %}
     </div>
   {% endfor %}
 </div>
